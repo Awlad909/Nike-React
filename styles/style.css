@@ -1,10 +1,70 @@
-.background-color{
+.bg-color{
     background: #FFF9F4;
 }
 
 .span{
     color: #FA804C;
 }
-.card{
-    background: #FFF9F4;
+
+.nike-react{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.pragraph{
+    width: 357px;
+    height: 52px;
+    color: #3E3E3E;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.button{
+    background: linear-gradient(180deg, #3D4FF3 0%, #3543BC 100%);
+    border-radius: 10px;
+}
+button.button.border-0:hover {
+    background:#FA804C;
+}
+
+.casual-shoes{
+    font-weight: bold;
+    color: #363958;
+    font-size: 48px;
+}
+
+.card-body{
+    border-radius: 15px;
+}
+
+.card-img-top{
+    background-color: lightgray;
+    border-radius: 15px;
+}
+
+.card-title{
+    width: 282px;
+    height: 28px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #363958;
+}
+.card-text{
+    width: 299px;
+    height: 52px;
+    font-weight: normal;
+    font-size: 16px;
+    color: #3E3E3E;
+}
+
+.dollar{
+    color: #FA804C;
+}
+
+/* Formal Shoes */
+
+.formal-card-title{
+    width: 248px;
+    font-weight: bold;
+    color: #363958;
 }

@@ -7,35 +7,173 @@
   <title>Nike React</title>
   <!-- bootstrap link  -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- stylesheet link  -->
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
   <!-- navigation -->
-  <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Features</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Pricing</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
+  <header class="bg-color">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div class="container pt-4">
+        <div>
+          <a class="navbar-brand" href="#"><img style="width: 290px; height: 40px;" src="icons/Logo.png" alt=""></a>
+        </div>
+        <div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              
+            </ul>
+          </div>
+        </div>
         </div>
       </div>
     </nav>
+    <!-- img section  -->
+    <section class="container py-5">
+      <div class="row">
+        <div class="col-lg-6">
+          <div>
+            <img style="width: 400px; height: 400px;" src="images/Group 33092.png" alt="">
+          </div>
+        </div>
+        <div class="col-lg-6 ">
+          <div class="ps-5 pt-5">
+            <h2 class="nike-react"><span class="span">NIKE REACT</span><br>INFINITY RUN 2</h2>
+            <p class="pragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. In, voluptas!</p>
+            <div>
+              <button style="width: 150px; height:60px" class="button border-0"><img style="width: 24px; height: 24px;" src="icons/shopping-cart 1.png" alt=""><span class="text-white">  BUY NOW</span></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </header>
+  <!-- main section -->
+  <main>
+    <!-- Casual Shoes -->
+
+    <section class="container">
+      <div><h2 class="casual-shoes py-5">CASUAL SHOES</h2></div>
+      <div class="row row-cols-lg-3 row-sm-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div style="width: 345px; height: 550px;" class="card-body shadow-lg pt-3 ps-3">
+            <img style="width: 311px;" src="images/image 5.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Nike Shoes</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, autem!</p>
+              <div style="width: 290px;" class="d-flex justify-content-between pt-3">
+                <h1><span class="dollar">$234</span></h1>
+                <button style="width: 150px; height:60px" class="button border-0"><img style="width: 24px; height: 24px;" src="icons/shopping-cart 1.png" alt=""><span class="text-white">  BUY NOW</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div style="width: 345px; height: 550px;" class="card-body shadow-lg pt-3 ps-3">
+            <img style="width: 311px;" src="images/Daco_1703273 1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Sneakers Skate Shoe </h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, autem!</p>
+              <div style="width: 290px;" class="d-flex justify-content-between pt-2">
+                <h1><span class="dollar">$234</span></h1>
+                <button style="width: 150px; height:60px" class="button border-0"><img style="width: 24px; height: 24px;" src="icons/shopping-cart 1.png" alt=""><span class="text-white">  BUY NOW</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div style="width: 345px; height: 550px;" class="card-body shadow-lg pt-3 ps-3">
+            <img style="width: 311px;" src="images/pngegg 1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ">Sneakers Basketball shoe</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, autem!</p>
+              <div style="width: 290px;" class="d-flex justify-content-between pt-4">
+                <h1><span class="dollar">$234</span></h1>
+                <button style="width: 150px; height:60px" class="button border-0"><img style="width: 24px; height: 24px;" src="icons/shopping-cart 1.png" alt=""><span class="text-white">  BUY NOW</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+        
+      </div>
+    </section>
+
+    <!-- Formal Shoes -->
+    <section class="container">
+      <div><h2 class="casual-shoes py-5">FORMAL SHOES</h2></div>
+      <div class="row row-cols-lg-3 row-sm-cols-1 row-cols-md-2 g-4">
+        <div class="col">
+          <div style="width: 345px; height: 550px;" class="card-body shadow-lg pt-3 ps-3">
+            <img style="width: 311px;" src="images/Mask Group.png"  alt="...">
+            <div class="card-body">
+              <h5 class="formal-card-title">Prestige High-Cut Leather </h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, autem!</p>
+              <div style="width: 290px;" class="d-flex justify-content-between pt-3">
+                <h1><span class="dollar">$234</span></h1>
+                <button style="width: 150px; height:60px" class="button border-0"><img style="width: 24px; height: 24px;" src="icons/shopping-cart 1.png" alt=""><span class="text-white">  BUY NOW</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div style="width: 345px; height: 550px;" class="card-body shadow-lg pt-3 ps-3">
+            <img style="width: 311px;" src="images/Rectangle 38.png"  alt="...">
+            <div class="card-body">
+              <h5 class="formal-card-title">Slip-On Formal Shoe</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, autem!</p>
+              <div style="width: 290px;" class="d-flex justify-content-between pt-2">
+                <h1><span class="dollar">$234</span></h1>
+                <button style="width: 150px; height:60px" class="button border-0"><img style="width: 24px; height: 24px;" src="icons/shopping-cart 1.png" alt=""><span class="text-white">  BUY NOW</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div style="width: 345px; height: 550px;" class="card-body shadow-lg pt-3 ps-3">
+            <img style="width: 311px;" src="images/Rectangle 39.png"  alt="...">
+            <div class="card-body">
+              <h5 class="formal-card-title ">Slip-On Formal Shoe</h5>
+              <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Atque, autem!</p>
+              <div style="width: 290px;" class="d-flex justify-content-between pt-4">
+                <h1><span class="dollar">$234</span></h1>
+                <button style="width: 150px; height:60px" class="button border-0"><img style="width: 24px; height: 24px;" src="icons/shopping-cart 1.png" alt=""><span class="text-white">  BUY NOW</span></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>     
+      </div>
+    </section>
+     
+    <!-- icons and image section -->
+    <section class="container">    
+          <div>
+            <img src="icons/image 12.png" alt="">
+            <img src="icons/image 13.png" alt="">
+            <img src="icons/image 14.png" alt="">
+          </div>
+          <div>
+            <img src="icons/XMLID 1.png" alt="">
+          </div>
+    </section>
+
+  </main>
 
 
 
